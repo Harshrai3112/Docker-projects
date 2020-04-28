@@ -1,0 +1,16 @@
+.main.text.segment{
+    margin-top: 7rem;
+}
+.ui.main.container{
+    margin-top: 7rem;
+}
+.ui.container.segment{
+    margin-top: 7rem;
+}
+.centered.image{
+    height: 50%;
+    width: 50%;
+}
+#delete{
+    display: inline;
+}

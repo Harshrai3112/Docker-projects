@@ -1,0 +1,22 @@
+<% include ./partials/header.ejs%>
+<h1 class="display-3 text-center"> Sign Up</h1>
+<br>
+<div class="container">
+
+    <div class="form-group" style="margin-left:33%;">
+        <form action="/register" method="POST">
+            <div class="d-flex justify-content-center">
+                <input type="text" class="form-control" name="username" placeholder="Username">
+            </div>
+            <br>
+           <div  class="d-flex justify-content-center">
+            <input type="password" name="password" class="form-control" placeholder="Password">
+           </div>
+            <br>
+            <div class="text-center">
+                <button class="btn btn-outline-info">Sign Up</button>
+            </div>
+            
+        </form>
+    </div>
+</div>

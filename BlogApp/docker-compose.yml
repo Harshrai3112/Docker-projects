@@ -1,0 +1,15 @@
+version: '3'
+services:
+        nodeapp:
+                image: harshrai3112/blogapp
+                ports:
+                        - 8080:4000
+                restart: always
+                ports:
+                        - 4000:4000
+                depends_on:
+                        - mongo
+        mongo:
+                image: mongo
+                ports:
+                        - 27017:27017

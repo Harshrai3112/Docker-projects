@@ -1,0 +1,9 @@
+<!-- <% var i=body.Search[0].Poster%> -->
+<!-- <img src="https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SX300.jpg" alt=""> -->
+<% body.Search.forEach((data)=>{%>
+    <li><h3 style="color:red"><%=data.Title%> - <%=data.Year%></h3></li>
+    <img style="height:40%;width:30%;"  src=<%=data.Poster%> alt="">
+<%})%>
+<p> </p>
+<h1><a href="/movie/search">search again</a></h1>
+<!-- <img src=<%=i%> alt=""> -->
